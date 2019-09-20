@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/09/2019, 17:31:10
+    Author     : thiagop
+*/
+
+article, aside, section, header, footer, nav{
+    display: block;
+}
+
+main{
+    width: 75%;
+    /*height: 1000px;*/
+    margin: 0 auto;
+    box-shadow: 0 0 10px #333;
+    background: #FFF;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    background-color: #FF7F00;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #B28500;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.conteudo{
+    float: left;
+    width: 66.66%;
+    height: 350px;
+    background-color: #FFD24D;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apoio{
+    float: right;
+    width: 32.29%;
+    height: 350px;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+}
+
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #999999;
+    text-align: center;
+    clear: both;
+}
