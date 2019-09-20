@@ -1,6 +1,6 @@
 main{
     margin: 0 auto;
-    width: 960px;
+    width: 100%;/*1024px;*/
     background-color: whitesmoke;
     position: relative;
 }
@@ -42,11 +42,11 @@ nav{
     /*    background: linear-gradient(to right, blue, red);*/
     background: linear-gradient(300deg,#ccffcc , #cc9f8c);
     /*background: radial-gradient(#ccffcc , #cc9f8c 95%);*/
-    width: 115px;
+    width: 11.23%;/*115px;*/
     height: 350px;
     float: left;
     padding-top: 15px;
-    padding-left: 15px;    
+    padding-left: 1.46%;/*15px;    */
 }
 
 nav ul {
@@ -62,12 +62,12 @@ nav ul li a {
 
 #o3{
     background-color: beige;
-    width: 680px;
+    width: 72.65%;/*744px;*/
 /*    height: 250px;*/
     box-shadow: 0 0 15px #999;
     margin-top: 1px;
     margin-bottom: 10px;
-    padding: 20px; 
+    padding: 1.95%;/*20px; */
     float: left;
     overflow: hidden;
     /*position: absolute;*/
@@ -80,35 +80,38 @@ nav ul li a {
 
 article{
     float: left;
+    width: 62.5%;
 }
 
 .janela1{
     background-color: #ffff98;
     height: 200px;
-    width: 180px;
+    width: 47.50%;/*19.72%;*//*202px;*/
     float: left;
-    padding: 20px;
+    /*padding: 1.95%;20px;*/
+    overflow: auto;
 }
 
 .janela2{
     background-color: rgb(255,204,51);    
     height: 200px;
-    width: 180px;
+    width: 47.50%;/*19.62%;/*201px;*/
     float: right;
-    padding: 20px;
-    margin-left: 10px;
+    /*padding: 1.95%;20px;*/
+    margin-left: 5%;/*10px;*/
 }
 
 aside{
     float: right;
+    width: 32.5%;
 }
 
 .janela3{
     background-color: #ffe75a;    
     height: 200px;
-    width: 180px;
+    width: 100%;/*19.62%;*//*201px;*/
     /*float: left;*/
-    padding: 20px;   
+    /*padding: 1.95%;20px;   */
     /*margin-bottom: 15px;*/
     /*margin: 0 auto;*/
 
@@ -117,7 +120,7 @@ aside{
 .janela4{
     background-color: #ff9102;
     height: 150px;
-    width: 680px;
+    width: 100%;/*72.65%;*//*744px;*/
     clear: both;
     position: relative;
     top: 27px;
@@ -126,7 +129,7 @@ aside{
 .janela5{
     background-color: #a2e5b5;
     height: 250px;
-    width: 680px;
+    width: 100%;/*72.65%;*//*744px;*/
     position: relative;
     top:  20px;
     /*left: 20px;*/
@@ -136,8 +139,8 @@ aside{
 
 .quadrado{
     height: 100px;
-    width: 100px;
-    padding: 10px;
+    width: 9.76%;/*100px;*/
+    padding: 0.97%;/*10px;*/
 }
 
 .janela6{
@@ -145,7 +148,7 @@ aside{
     position: absolute;
     top: 10px;
     left: 10px;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .janela7{
@@ -154,13 +157,14 @@ aside{
     top: 40px;
     left: 40px;
     z-index: 3;
+    clip: rect( 0 120px 120px 0 );
 }
 
 .janela8{
     background-color: #ff9933;
     position: absolute;
-    top: 70px;
-    left: 70px;
+    top: 50px;
+    left: 2px;
     z-index: 2;
 }
 
@@ -168,16 +172,16 @@ aside{
 
 #o4{    
     background: linear-gradient(60deg,#ccffcc , #cc9f8c);    
-    width: 110px;
-    height: 500px;
+    width: 10.15%;/*104px;*/
+    height: 600px;
     float: right;
-    margin: 0;
+    margin: 0%;
     margin-bottom: 10px;
     
 }
 
 footer{    
-    padding: 5px;
+    padding: 0.48%;/*5px;*/
     background-color: rgb(204,153,51);
     text-align: center;
     color: rgb(255,255,255);
